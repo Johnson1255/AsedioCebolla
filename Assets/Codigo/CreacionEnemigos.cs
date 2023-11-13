@@ -9,7 +9,7 @@ public class CreacionEnemigos : MonoBehaviour
 
     [Header("Atributos")]
     [SerializeField] private int EnemigosBase = 8;
-    [SerializeField] private int EnemigosPorSegundo = 0.5f;
+    [SerializeField] private float EnemigosPorSegundo = 0.5f;
     [SerializeField] private float TiempoEntreOleadas = 5f;
     [SerializeField] private float DificultadEnemigos = 0.75f;
 
@@ -17,13 +17,31 @@ public class CreacionEnemigos : MonoBehaviour
     private float TiempoUltimoSpawneado;
     private int EnemigosVivos;
     private int EnemigosFaltaSpawnear;
-    void Start()
+    private bool EstaSpawneando = false;
+
+    private void Start()
     {
-        EnemigosFaltaSpawnear = EnemigosBase;
+        StartWave();
+    }
+    private void Update()
+    {
+        if (!EstaSpawneando) return;
+        TiempoUltimoSpawneado += Time.deltaTime;
+
+        if (TiempoUltimoSpawneado >= (1f / EnemigosPorSegundo))
+        {
+            Debug.Log("Enemigo Spawneado");
+        }
+    }
+    void StartWave()
+    {
+        EstaSpawneando = true;
+        EnemigosFaltaSpawnear = EnemigosPorOleada();
     }
 
-    void Update()
+    private int EnemigosPorOleada()
     {
-        
+        return Mathf.RoundToInt(EnemigosBase * Mathf.Pow(OleadaActual, DificultadEnemigos));
     }
+
 }
