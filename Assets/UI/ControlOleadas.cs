@@ -21,7 +21,7 @@ public class ControlOleadas : MonoBehaviour, MMEventListener<MMGameEvent>
     {
         if(e.EventName == "ActualizarUIOla")
         {
-            Oleadas temp = ControlOleadas.Instance;
+            Oleadas temp = Oleadas.Instance;
             texto.text = "Oleada " + temp.OlaActual + "/" + temp.CantidadOlas();
         }
     }
