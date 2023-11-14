@@ -3567,6 +3567,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc8ac155514d5cd409220659e8791d91, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemyPrefabs: []
+  EnemigosBase: 8
+  EnemigosPorSegundo: 0.5
+  TiempoEntreOleadas: 5
+  DificultadEnemigos: 0.75
+  OleadaActual: 1
+  TiempoUltimoSpawneado: 0
+  EnemigosVivos: 0
+  EnemigosFaltaSpawnear: 0
+  EstaSpawneando: 0
 --- !u!1001 &603296364
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7506,6 +7516,16 @@ PrefabInstance:
       propertyPath: States.Array.data[0].Actions.array.Array.data[0]
       value: 
       objectReference: {fileID: 1226678473}
+    - target: {fileID: 2437730220603187569, guid: 223caa20eb485ef4896af8f3db4be864,
+        type: 3}
+      propertyPath: States.Array.data[0].Actions.array.Array.data[1]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2437730220603187569, guid: 223caa20eb485ef4896af8f3db4be864,
+        type: 3}
+      propertyPath: States.Array.data[0].Transitions.array.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 223caa20eb485ef4896af8f3db4be864, type: 3}
 --- !u!4 &1226678472 stripped
@@ -89248,11 +89268,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114103483350062584, guid: 89e8fe862f5cce84198ece4736c332ef,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 114675271368606418, guid: 89e8fe862f5cce84198ece4736c332ef,
         type: 3}
       propertyPath: States.Array.data[0].Actions.array.Array.data[0]
       value: 
       objectReference: {fileID: 1688509714}
+    - target: {fileID: 114675271368606418, guid: 89e8fe862f5cce84198ece4736c332ef,
+        type: 3}
+      propertyPath: States.Array.data[0].Transitions.array.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 89e8fe862f5cce84198ece4736c332ef, type: 3}
 --- !u!4 &1688509712 stripped
