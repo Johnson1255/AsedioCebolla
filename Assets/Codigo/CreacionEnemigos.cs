@@ -28,15 +28,23 @@ public class CreacionEnemigos : MonoBehaviour
         if (!EstaSpawneando) return;
         TiempoUltimoSpawneado += Time.deltaTime;
 
-        if (TiempoUltimoSpawneado >= (1f / EnemigosPorSegundo))
+        if (TiempoUltimoSpawneado >= (1f / EnemigosPorSegundo) && EnemigosFaltaSpawnear > 0)
         {
-            Debug.Log("Enemigo Spawneado");
+            SpawnearEnemigo();
+            EnemigosFaltaSpawnear--;
+            EnemigosVivos++;
+            TiempoUltimoSpawneado = 0f;
         }
     }
     void StartWave()
     {
         EstaSpawneando = true;
         EnemigosFaltaSpawnear = EnemigosPorOleada();
+    }
+
+    private void SpawnearEnemigo()
+    {
+        GameObject prefabToSpawn = enemyPrefabs[0];
     }
 
     private int EnemigosPorOleada()
