@@ -530,7 +530,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b81dc1a6e4b189d4bae2faab8a2a1a25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CycleOption: 0
+  CycleOption: 2
   LoopInitialMovementDirection: 0
   PathElements:
   - PathElementPosition: {x: -31.077871, y: 18.978088, z: 0}
@@ -3885,7 +3885,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b81dc1a6e4b189d4bae2faab8a2a1a25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CycleOption: 0
+  CycleOption: 2
   LoopInitialMovementDirection: 0
   PathElements:
   - PathElementPosition: {x: 31.479527, y: -4.066734, z: 0}
@@ -4433,7 +4433,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b81dc1a6e4b189d4bae2faab8a2a1a25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CycleOption: 0
+  CycleOption: 2
   LoopInitialMovementDirection: 0
   PathElements:
   - PathElementPosition: {x: 0.12022781, y: 0, z: 0}
@@ -6763,6 +6763,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4587121586835434372, guid: 944c8a2405237b247bc990e3b3395ea6,
         type: 3}
+      propertyPath: CycleOption
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4587121586835434372, guid: 944c8a2405237b247bc990e3b3395ea6,
+        type: 3}
       propertyPath: ReferenceMMPath
       value: 
       objectReference: {fileID: 612304111}
@@ -7030,7 +7035,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b81dc1a6e4b189d4bae2faab8a2a1a25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CycleOption: 0
+  CycleOption: 2
   LoopInitialMovementDirection: 0
   PathElements:
   - PathElementPosition: {x: -31.248951, y: -18.092314, z: 0}
@@ -7762,7 +7767,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b81dc1a6e4b189d4bae2faab8a2a1a25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CycleOption: 0
+  CycleOption: 2
   LoopInitialMovementDirection: 0
   PathElements: []
   ReferenceMMPath: {fileID: 58887100}
@@ -89725,7 +89730,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b81dc1a6e4b189d4bae2faab8a2a1a25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CycleOption: 0
+  CycleOption: 2
   LoopInitialMovementDirection: 0
   PathElements: []
   ReferenceMMPath: {fileID: 666699927}
@@ -91643,7 +91648,7 @@ PrefabInstance:
     - target: {fileID: 4587121586835434372, guid: a200a0b4274de1d4da0e68119fadcbbb,
         type: 3}
       propertyPath: CycleOption
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4587121586835434372, guid: a200a0b4274de1d4da0e68119fadcbbb,
         type: 3}
