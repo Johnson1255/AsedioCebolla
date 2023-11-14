@@ -872,8 +872,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 107970674}
+  - component: {fileID: 107970675}
   m_Layer: 5
-  m_Name: Contador
+  m_Name: ContadorVida
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -900,6 +901,19 @@ RectTransform:
   m_AnchoredPosition: {x: -769.99225, y: 435.99902}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &107970675
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 107970673}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88e67178ee4220d45998a68939692391, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  contador: {fileID: 1344692969}
 --- !u!4 &110449410 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4798570233257244, guid: 581ea2e7a3383fa4eac2d162354979b5,
@@ -3651,7 +3665,7 @@ MonoBehaviour:
   AutomaticallyUnparentOnAwake: 1
   TargetFrameRate: 300
   MaximumLives: 0
-  CurrentLives: 0
+  CurrentLives: 20
   GameOverScene: 
   Points: 0
   PauseGameWhenInventoryOpens: 1
@@ -7728,6 +7742,11 @@ PrefabInstance:
       propertyPath: States.Array.data[0].Transitions.array.Array.size
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2437789940715566383, guid: 223caa20eb485ef4896af8f3db4be864,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 223caa20eb485ef4896af8f3db4be864, type: 3}
 --- !u!4 &1226678472 stripped
@@ -8432,7 +8451,7 @@ GameObject:
   - component: {fileID: 1344692970}
   - component: {fileID: 1344692969}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: VidaCounter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -89673,7 +89692,7 @@ PrefabInstance:
     - target: {fileID: 114103483350062584, guid: 89e8fe862f5cce84198ece4736c332ef,
         type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114675271368606418, guid: 89e8fe862f5cce84198ece4736c332ef,
         type: 3}
@@ -91847,7 +91866,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   data:
   - tiempoSalida: 0
-    cantidad: 5
+    cantidad: 4
     prefab: {fileID: 256785944}
     ruta: {fileID: 58887100}
   - tiempoSalida: 15
