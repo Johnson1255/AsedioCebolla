@@ -990,7 +990,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &369376632
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1785,12 +1785,12 @@ GameObject:
   - component: {fileID: 671793323}
   - component: {fileID: 671793322}
   m_Layer: 5
-  m_Name: MenuOpciones
+  m_Name: MenuIntrucciones
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &671793321
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3317,7 +3317,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Aqui van las poderosas instrucciones
+  m_text: Disfruta este maravilloso juego
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d10c41a37b7e0b046a8a1b8442ab9acf, type: 2}
   m_sharedMaterial: {fileID: 441620573490322062, guid: d10c41a37b7e0b046a8a1b8442ab9acf,
