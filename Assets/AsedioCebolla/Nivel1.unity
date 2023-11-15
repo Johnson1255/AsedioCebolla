@@ -8046,6 +8046,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114171358364461030, guid: 944c8a2405237b247bc990e3b3395ea6,
+        type: 3}
+      propertyPath: DestroyOnDeath
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1600486436912884018, guid: 944c8a2405237b247bc990e3b3395ea6,
         type: 3}
       propertyPath: m_Layer
@@ -9042,6 +9047,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Enabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2438059506377447113, guid: 223caa20eb485ef4896af8f3db4be864,
+        type: 3}
+      propertyPath: DestroyOnDeath
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 223caa20eb485ef4896af8f3db4be864, type: 3}
@@ -92857,6 +92867,11 @@ PrefabInstance:
       propertyPath: States.Array.data[0].Transitions.array.Array.size
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114767317845071676, guid: 89e8fe862f5cce84198ece4736c332ef,
+        type: 3}
+      propertyPath: DestroyOnDeath
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 89e8fe862f5cce84198ece4736c332ef, type: 3}
 --- !u!4 &1688509712 stripped
@@ -94874,6 +94889,11 @@ PrefabInstance:
         type: 3}
       propertyPath: RunSpeed
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114171358364461030, guid: a200a0b4274de1d4da0e68119fadcbbb,
+        type: 3}
+      propertyPath: DestroyOnDeath
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 114184457958384624, guid: a200a0b4274de1d4da0e68119fadcbbb,
         type: 3}
