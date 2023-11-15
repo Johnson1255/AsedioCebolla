@@ -392,7 +392,7 @@ PrefabInstance:
         type: 3}
       propertyPath: ReferenceMMPath
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1903048881}
     - target: {fileID: 4587121586835434372, guid: a200a0b4274de1d4da0e68119fadcbbb,
         type: 3}
       propertyPath: AbsoluteReferencePath
@@ -1766,7 +1766,7 @@ MonoBehaviour:
   CycleOption: 2
   LoopInitialMovementDirection: 0
   PathElements: []
-  ReferenceMMPath: {fileID: 0}
+  ReferenceMMPath: {fileID: 1903048881}
   AbsoluteReferencePath: 1
   MinDistanceToGoal: 0.1
   LockHandlesOnXAxis: 0
@@ -1909,7 +1909,7 @@ MonoBehaviour:
   CycleOption: 2
   LoopInitialMovementDirection: 0
   PathElements: []
-  ReferenceMMPath: {fileID: 0}
+  ReferenceMMPath: {fileID: 645845273}
   AbsoluteReferencePath: 1
   MinDistanceToGoal: 0.1
   LockHandlesOnXAxis: 0
@@ -6575,7 +6575,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b81dc1a6e4b189d4bae2faab8a2a1a25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CycleOption: 0
+  CycleOption: 2
   LoopInitialMovementDirection: 0
   PathElements:
   - PathElementPosition: {x: -31.720062, y: -17.019917, z: 0}
@@ -13293,7 +13293,7 @@ PrefabInstance:
         type: 3}
       propertyPath: ReferenceMMPath
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 645845273}
     - target: {fileID: 4587121586835434372, guid: 944c8a2405237b247bc990e3b3395ea6,
         type: 3}
       propertyPath: AbsoluteReferencePath
@@ -99604,7 +99604,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b81dc1a6e4b189d4bae2faab8a2a1a25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CycleOption: 0
+  CycleOption: 2
   LoopInitialMovementDirection: 0
   PathElements:
   - PathElementPosition: {x: -29.986444, y: -16.992048, z: 0}

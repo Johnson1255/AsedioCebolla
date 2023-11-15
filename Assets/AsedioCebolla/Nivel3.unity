@@ -8800,10 +8800,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b81dc1a6e4b189d4bae2faab8a2a1a25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CycleOption: 0
+  CycleOption: 2
   LoopInitialMovementDirection: 0
   PathElements:
-  - PathElementPosition: {x: -19.04515, y: 10.819615, z: 0}
+  - PathElementPosition: {x: -19.046099, y: 8.153096, z: 0}
     Delay: 2
   - PathElementPosition: {x: -19.0339, y: -17.058598, z: 0}
     Delay: 0
@@ -14253,7 +14253,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b81dc1a6e4b189d4bae2faab8a2a1a25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CycleOption: 0
+  CycleOption: 2
   LoopInitialMovementDirection: 0
   PathElements:
   - PathElementPosition: {x: -19.06585, y: 8.121557, z: 0}
