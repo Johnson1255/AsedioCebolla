@@ -2831,16 +2831,16 @@ MonoBehaviour:
   data:
   - tiempoSalida: 0
     cantidad: 4
-    prefab: {fileID: 0}
-    ruta: {fileID: 0}
+    prefab: {fileID: 1594017240}
+    ruta: {fileID: 955037913}
   - tiempoSalida: 15
     cantidad: 3
-    prefab: {fileID: 0}
-    ruta: {fileID: 0}
+    prefab: {fileID: 629593271}
+    ruta: {fileID: 1467499727}
   - tiempoSalida: 25
     cantidad: 5
-    prefab: {fileID: 0}
-    ruta: {fileID: 0}
+    prefab: {fileID: 727372571}
+    ruta: {fileID: 955037913}
   tiempo_entre_olas: 0
   PuedeAgregarButton: 0
 --- !u!4 &405177230 stripped
@@ -11216,12 +11216,12 @@ MonoBehaviour:
   data:
   - tiempoSalida: 0
     cantidad: 3
-    prefab: {fileID: 0}
-    ruta: {fileID: 0}
+    prefab: {fileID: 1091489967}
+    ruta: {fileID: 955037913}
   - tiempoSalida: 15
     cantidad: 5
-    prefab: {fileID: 0}
-    ruta: {fileID: 0}
+    prefab: {fileID: 727372571}
+    ruta: {fileID: 1467499727}
   tiempo_entre_olas: 20
   PuedeAgregarButton: 0
 --- !u!4 &1171620286 stripped
