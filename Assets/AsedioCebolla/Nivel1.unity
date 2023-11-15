@@ -6724,13 +6724,45 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1278745250}
     m_Modifications:
+    - target: {fileID: 1142519838877934, guid: 944c8a2405237b247bc990e3b3395ea6, type: 3}
+      propertyPath: m_Layer
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 1186096418679244, guid: 944c8a2405237b247bc990e3b3395ea6, type: 3}
+      propertyPath: m_Layer
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 1295953292495014, guid: 944c8a2405237b247bc990e3b3395ea6, type: 3}
+      propertyPath: m_Layer
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 1358283918792732, guid: 944c8a2405237b247bc990e3b3395ea6, type: 3}
+      propertyPath: m_Layer
+      value: 13
+      objectReference: {fileID: 0}
     - target: {fileID: 1498750440386690, guid: 944c8a2405237b247bc990e3b3395ea6, type: 3}
       propertyPath: m_Name
       value: Koala2
       objectReference: {fileID: 0}
     - target: {fileID: 1498750440386690, guid: 944c8a2405237b247bc990e3b3395ea6, type: 3}
+      propertyPath: m_Layer
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 1498750440386690, guid: 944c8a2405237b247bc990e3b3395ea6, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1561075265052736, guid: 944c8a2405237b247bc990e3b3395ea6, type: 3}
+      propertyPath: m_Layer
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 1603371689411350, guid: 944c8a2405237b247bc990e3b3395ea6, type: 3}
+      propertyPath: m_Layer
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 1865617948810876, guid: 944c8a2405237b247bc990e3b3395ea6, type: 3}
+      propertyPath: m_Layer
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 4001341059962208, guid: 944c8a2405237b247bc990e3b3395ea6, type: 3}
       propertyPath: m_RootOrder
@@ -6776,6 +6808,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1600486436912884018, guid: 944c8a2405237b247bc990e3b3395ea6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 2769150743623416789, guid: 944c8a2405237b247bc990e3b3395ea6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 3821486771870496674, guid: 944c8a2405237b247bc990e3b3395ea6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 13
+      objectReference: {fileID: 0}
     - target: {fileID: 4587121586835434372, guid: 944c8a2405237b247bc990e3b3395ea6,
         type: 3}
       propertyPath: CycleOption
@@ -6790,6 +6837,16 @@ PrefabInstance:
         type: 3}
       propertyPath: AbsoluteReferencePath
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6808776468769401931, guid: 944c8a2405237b247bc990e3b3395ea6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 7972998509315848447, guid: 944c8a2405237b247bc990e3b3395ea6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 13
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 944c8a2405237b247bc990e3b3395ea6, type: 3}
@@ -9727,7 +9784,7 @@ GameObject:
   - component: {fileID: 1384818731}
   - component: {fileID: 1384818730}
   - component: {fileID: 1384818729}
-  m_Layer: 13
+  m_Layer: 10
   m_Name: Torre1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9767,7 +9824,7 @@ MonoBehaviour:
   TargetHandleWeaponAbility: {fileID: 0}
   AimOrigin: 0
   FaceTarget: 1
-  AimAtTarget: 0
+  AimAtTarget: 1
   OnlyAimWhenInState: 0
 --- !u!114 &1384818730
 MonoBehaviour:
@@ -9786,7 +9843,7 @@ MonoBehaviour:
   DetectionOriginOffset: {x: 0, y: 0, z: 0}
   TargetLayer:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 8192
   ObstacleDetection: 1
   ObstacleMask:
     serializedVersion: 2
@@ -10596,7 +10653,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1471658295}
   - component: {fileID: 1471658296}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Modelo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -92229,13 +92286,45 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1278745250}
     m_Modifications:
+    - target: {fileID: 1142519838877934, guid: a200a0b4274de1d4da0e68119fadcbbb, type: 3}
+      propertyPath: m_Layer
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 1186096418679244, guid: a200a0b4274de1d4da0e68119fadcbbb, type: 3}
+      propertyPath: m_Layer
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 1295953292495014, guid: a200a0b4274de1d4da0e68119fadcbbb, type: 3}
+      propertyPath: m_Layer
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 1358283918792732, guid: a200a0b4274de1d4da0e68119fadcbbb, type: 3}
+      propertyPath: m_Layer
+      value: 13
+      objectReference: {fileID: 0}
     - target: {fileID: 1498750440386690, guid: a200a0b4274de1d4da0e68119fadcbbb, type: 3}
       propertyPath: m_Name
       value: Koala
       objectReference: {fileID: 0}
     - target: {fileID: 1498750440386690, guid: a200a0b4274de1d4da0e68119fadcbbb, type: 3}
+      propertyPath: m_Layer
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 1498750440386690, guid: a200a0b4274de1d4da0e68119fadcbbb, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1561075265052736, guid: a200a0b4274de1d4da0e68119fadcbbb, type: 3}
+      propertyPath: m_Layer
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 1603371689411350, guid: a200a0b4274de1d4da0e68119fadcbbb, type: 3}
+      propertyPath: m_Layer
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 1865617948810876, guid: a200a0b4274de1d4da0e68119fadcbbb, type: 3}
+      propertyPath: m_Layer
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 4001341059962208, guid: a200a0b4274de1d4da0e68119fadcbbb, type: 3}
       propertyPath: m_RootOrder
@@ -92316,6 +92405,21 @@ PrefabInstance:
       propertyPath: m_Materials.Array.size
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1600486436912884018, guid: a200a0b4274de1d4da0e68119fadcbbb,
+        type: 3}
+      propertyPath: m_Layer
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 2769150743623416789, guid: a200a0b4274de1d4da0e68119fadcbbb,
+        type: 3}
+      propertyPath: m_Layer
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 3821486771870496674, guid: a200a0b4274de1d4da0e68119fadcbbb,
+        type: 3}
+      propertyPath: m_Layer
+      value: 13
+      objectReference: {fileID: 0}
     - target: {fileID: 4587121586835434372, guid: a200a0b4274de1d4da0e68119fadcbbb,
         type: 3}
       propertyPath: CycleOption
@@ -92365,6 +92469,16 @@ PrefabInstance:
         type: 3}
       propertyPath: PathElements.Array.data[2].PathElementPosition.y
       value: 29.859886
+      objectReference: {fileID: 0}
+    - target: {fileID: 6808776468769401931, guid: a200a0b4274de1d4da0e68119fadcbbb,
+        type: 3}
+      propertyPath: m_Layer
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 7972998509315848447, guid: a200a0b4274de1d4da0e68119fadcbbb,
+        type: 3}
+      propertyPath: m_Layer
+      value: 13
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a200a0b4274de1d4da0e68119fadcbbb, type: 3}
