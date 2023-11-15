@@ -8749,10 +8749,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114079283237680582, guid: 944c8a2405237b247bc990e3b3395ea6,
+        type: 3}
+      propertyPath: RunSpeed
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 114171358364461030, guid: 944c8a2405237b247bc990e3b3395ea6,
         type: 3}
       propertyPath: DestroyOnDeath
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114184457958384624, guid: 944c8a2405237b247bc990e3b3395ea6,
+        type: 3}
+      propertyPath: WalkSpeed
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1600486436912884018, guid: 944c8a2405237b247bc990e3b3395ea6,
         type: 3}
@@ -10281,10 +10291,20 @@ PrefabInstance:
       propertyPath: States.Array.data[0].Transitions.array.Array.size
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2437785089071591875, guid: 223caa20eb485ef4896af8f3db4be864,
+        type: 3}
+      propertyPath: RunSpeed
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 2437789940715566383, guid: 223caa20eb485ef4896af8f3db4be864,
         type: 3}
       propertyPath: m_Enabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2437870776517784125, guid: 223caa20eb485ef4896af8f3db4be864,
+        type: 3}
+      propertyPath: WalkSpeed
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2438059506377447113, guid: 223caa20eb485ef4896af8f3db4be864,
         type: 3}
@@ -12416,7 +12436,7 @@ MonoBehaviour:
   BlockingMovementStates: 
   BlockingConditionStates: 
   BlockingWeaponStates: 
-  InitialWeapon: {fileID: 114317679573123918, guid: 41c4b1b5cf3c187459806b6e03ca36ac,
+  InitialWeapon: {fileID: 114552424271636822, guid: 63309671082ff30409623a954c22e8f5,
     type: 3}
   CanPickupWeapons: 1
   WeaponUseFeedback: {fileID: 0}
@@ -94630,6 +94650,11 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114637059735928924, guid: 89e8fe862f5cce84198ece4736c332ef,
+        type: 3}
+      propertyPath: RunSpeed
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 114675271368606418, guid: 89e8fe862f5cce84198ece4736c332ef,
         type: 3}
       propertyPath: States.Array.data[0].Actions.array.Array.data[0]
@@ -94644,6 +94669,11 @@ PrefabInstance:
         type: 3}
       propertyPath: DestroyOnDeath
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114809083901408364, guid: 89e8fe862f5cce84198ece4736c332ef,
+        type: 3}
+      propertyPath: WalkSpeed
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 89e8fe862f5cce84198ece4736c332ef, type: 3}
