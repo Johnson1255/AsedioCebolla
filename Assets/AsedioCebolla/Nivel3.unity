@@ -5006,7 +5006,7 @@ MonoBehaviour:
   CycleOption: 2
   LoopInitialMovementDirection: 0
   PathElements: []
-  ReferenceMMPath: {fileID: 0}
+  ReferenceMMPath: {fileID: 955037913}
   AbsoluteReferencePath: 1
   MinDistanceToGoal: 0.1
   LockHandlesOnXAxis: 0
@@ -5945,7 +5945,7 @@ MonoBehaviour:
   CycleOption: 2
   LoopInitialMovementDirection: 0
   PathElements: []
-  ReferenceMMPath: {fileID: 0}
+  ReferenceMMPath: {fileID: 1467499727}
   AbsoluteReferencePath: 1
   MinDistanceToGoal: 0.1
   LockHandlesOnXAxis: 0
@@ -10226,7 +10226,7 @@ PrefabInstance:
         type: 3}
       propertyPath: ReferenceMMPath
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 955037913}
     - target: {fileID: 4587121586835434372, guid: a200a0b4274de1d4da0e68119fadcbbb,
         type: 3}
       propertyPath: AbsoluteReferencePath
@@ -76244,7 +76244,7 @@ PrefabInstance:
         type: 3}
       propertyPath: ReferenceMMPath
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1467499727}
     - target: {fileID: 4587121586835434372, guid: 944c8a2405237b247bc990e3b3395ea6,
         type: 3}
       propertyPath: AbsoluteReferencePath
