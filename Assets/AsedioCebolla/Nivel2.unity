@@ -2342,12 +2342,12 @@ MonoBehaviour:
   data:
   - tiempoSalida: 0
     cantidad: 3
-    prefab: {fileID: 0}
-    ruta: {fileID: 0}
+    prefab: {fileID: 5014580}
+    ruta: {fileID: 1903048881}
   - tiempoSalida: 15
     cantidad: 5
-    prefab: {fileID: 0}
-    ruta: {fileID: 0}
+    prefab: {fileID: 119610039}
+    ruta: {fileID: 645845273}
   tiempo_entre_olas: 20
   PuedeAgregarButton: 0
 --- !u!1001 &165344900
@@ -5540,7 +5540,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AutomaticallyUnparentOnAwake: 1
   TargetFrameRate: 300
-  MaximumLives: 0
+  MaximumLives: 20
   CurrentLives: 0
   GameOverScene: 
   Points: 0
@@ -100057,16 +100057,16 @@ MonoBehaviour:
   data:
   - tiempoSalida: 0
     cantidad: 4
-    prefab: {fileID: 0}
-    ruta: {fileID: 0}
+    prefab: {fileID: 5014580}
+    ruta: {fileID: 1903048881}
   - tiempoSalida: 15
     cantidad: 3
-    prefab: {fileID: 0}
-    ruta: {fileID: 0}
+    prefab: {fileID: 121668845}
+    ruta: {fileID: 1903048881}
   - tiempoSalida: 25
     cantidad: 5
-    prefab: {fileID: 0}
-    ruta: {fileID: 0}
+    prefab: {fileID: 1549350351}
+    ruta: {fileID: 645845273}
   tiempo_entre_olas: 0
   PuedeAgregarButton: 0
 --- !u!1001 &1954258069
